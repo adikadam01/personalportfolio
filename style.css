@@ -580,7 +580,7 @@ svg:hover {
 
 
 /* General Media Query for Mobile Devices */
-@media only screen and (max-width: 321px) {
+@media only screen and (max-width: 393px) {
   nav ul {
     flex-direction: column;
     gap: 5px;
@@ -705,3 +705,132 @@ svg:hover {
       width: 2px;
     }
   }
+
+
+
+  @media only screen and (max-width: 321px) {
+    nav ul {
+      flex-direction: column;
+      gap: 5px;
+    }
+    body{
+      width: 100%;
+      box-sizing: border-box;
+      margin: 0;
+    }
+  
+    nav ul li {
+      font-size: medium;
+    }
+  
+    #home {
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 20px;
+    }
+  
+    .box1 {
+      position: static;
+      height: 50vh;
+      width: 50%;
+      margin-bottom: 20px;
+      display: none;
+    }
+  
+    .box1 img {
+      height: 50px;
+      width: 50px;
+    }
+  
+    .para1 {
+      width: 100%;
+      /* padding: 10px; */
+  
+    }
+  
+    .para1 p {
+      /* border: 1px solid white; */
+      margin: 0;
+      margin-right: 10%;
+      font-size: .88rem;
+      /* text-align: center; */
+    }
+  
+    #about {
+      flex-direction: column;
+      align-items: center;
+      /* justify-content: flex-start; */
+       padding: 20px;
+    } 
+  
+  
+      .para2 {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        font-size: 0.8rem;
+        text-align: center;
+        align-items: baseline;
+        /* margin-top: 10%; */
+      }
+  
+      .para2 p {
+        font-size: 0.8rem;
+        align-items: center;
+      }
+  
+      .para3 h1 {
+        font-size: 3rem;
+      }
+  
+      .container {
+        margin: auto;
+        right: 13%;
+      }
+  
+      .box4 h1 {
+        font-size: 2rem;
+        text-align: center;
+        margin-left: 100%;
+      }
+  
+      .para4 {
+        /* border: 2px solid red; */
+        width: 100%;
+        margin-right: 2%;
+        padding: 10px;
+        font-size: 0.8rem;
+      }
+  
+      footer {
+        width: 120%;
+        background-color: #fff4f4;
+        display: inline-block;
+      }
+  
+      .favicon{
+        gap: 20px;
+      }
+      .favicon img1{
+        height: 2px;
+        width: 2px;
+      }
+      .favicon img2{
+        height: 2px;
+        width: 2px;
+      }
+      .favicon img3{
+        height:2px;
+        width: 2px;
+      }
+      .favicon img4{
+        height: 2px;
+        width: 2px;
+      }
+      .favicon img5{
+        height: 2px;
+        width: 2px;
+      }
+    }
+  
