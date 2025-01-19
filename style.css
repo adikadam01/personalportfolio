@@ -580,8 +580,9 @@ svg:hover {
 
 
 /* General Media Query for Mobile Devices */
-@media only screen and (max-width: 393px) {
+@media only screen and (min-width: 393px) {
   nav ul {
+    padding-top: 20px;
     flex-direction: column;
     gap: 3px;
   }
@@ -596,10 +597,14 @@ svg:hover {
   }
 
   #home {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
-    justify-content: flex-start;
-    padding: 20px;
+    margin-top: -10%;
+    /* justify-content: flex-start; */
+    /* padding: 20px; */
+  }
+  .floating{
+    margin-top:-150% ;
   }
 
   .box1 {
@@ -626,15 +631,16 @@ svg:hover {
     /* border: 1px solid white; */
     margin: 0;
     margin-right: 10%;
-    font-size: .88rem;
+    font-size: 1.3rem;
     /* text-align: center; */
   }
 
   #about {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
+    margin-top: -1%;
     /* justify-content: flex-start; */
-     padding: 20px;
+     /* padding: 20px; */
   } 
 
 
@@ -649,8 +655,12 @@ svg:hover {
     }
 
     .para2 p {
-      font-size: 0.8rem;
+      font-size: 1.3rem;
       align-items: center;
+    }
+
+    #skills{
+      margin-top: 40%;
     }
 
     .para3 h1 {
@@ -659,9 +669,13 @@ svg:hover {
 
     .container {
       margin: auto;
+      height: 200px;
       right: 13%;
     }
 
+    #projects{
+      margin-top: -1%;
+    }
     .box4 h1 {
       font-size: 2rem;
       text-align: center;
