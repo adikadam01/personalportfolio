@@ -580,7 +580,7 @@ svg:hover {
 
 
 /* General Media Query for Mobile Devices */
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 393px , min-width:873px) {
   nav ul {
     padding-top: 20px;
     flex-direction: column;
