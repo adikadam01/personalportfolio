@@ -723,6 +723,7 @@ button a{
       margin-right: 2%;
       padding: 10px;
       font-size: 0.8rem;
+      display: inline;
     }
 
     footer {
