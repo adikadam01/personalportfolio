@@ -583,7 +583,7 @@ svg:hover {
 @media only screen and (max-width: 393px) {
   nav ul {
     flex-direction: column;
-    gap: 5px;
+    gap: 3px;
   }
   body{
     width: 100%;
@@ -613,6 +613,7 @@ svg:hover {
   .box1 img {
     height: 50px;
     width: 50px;
+    display: none;
   }
 
   .para1 {
